@@ -49,12 +49,21 @@ body {
 /* HERO */
 
 .hero {
-  height: 80vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 40px;
+  justify-content: space-between;
+  padding: 80px;
+  gap: 40px;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero-image img {
+  width: 400px;
+  max-width: 100%;
 }
 
 .hero h2 {
